@@ -35,6 +35,7 @@ public class MyActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my);
+        System.out.println("");
 
         // Initialize the Mobile Ads SDK.
         MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
